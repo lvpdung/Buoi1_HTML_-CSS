@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 183, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 350px;
+    height: fit-content;
+    padding: 64px 32px;
+    background-color: white;
+    box-shadow: 10px 10px rgb(13, 142, 109);
+}
+.form h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.desc {
+    font-size: 14px;
+    color: rgb(123, 123, 123);
+    margin-bottom: 10px;
+}
+.input {
+    padding: 10px 0px;
+}
+.input input{
+    background-color: rgb(229, 229, 229);
+    border-style: hidden;
+    width: 100%;
+}
+.input label {
+    text-transform: uppercase;
+    color: rgb(123, 123, 123);
+    font-size: 10px;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(16, 183, 141);
+    padding: 4px 4px;
+}
+.input-text{
+    display: flex;
+}
+.button {
+    height: 30px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgb(16, 183, 141);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: hidden;
+}
+.reg {
+    padding-top: 16px;
+    font-size: 10px;
+    color: rgb(123, 123, 123);
+    margin: auto;
+    width: fit-content;
+}
+.reg a {
+    text-transform: uppercase;
+    color: rgb(123, 123, 123);
+}
+
+
